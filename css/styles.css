@@ -1,0 +1,96 @@
+body{
+    background-image: url("/img/esteeee.png");
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+}
+
+.custom-nav .nav-link {
+    font-size: 20px; /*Aumenta el tamaño de la fuente*/
+    color:white; /* Cambia el color del texto a negro*/
+}
+
+.custom-nav  .nav-link.active,
+.custom-nav  .nav-link:focus {
+    background-color: gold;
+}
+.custom-nav  .nav-link:hover{
+    background-color: aquamarine;
+    color:white;
+}
+
+.carousel-item img {
+    height: 400px;/*Cambia la altura para hacer el carrusel mas pequeño */
+    object-fit: cover; /* centra el carrusel*/
+}
+
+.carousel{
+    width: 60%; /* Ajusta el ancho de letra grande*/
+    margin: 0 auto; /*Centra el carrusel*/
+}
+
+.welcome-text{
+    font-size: 3rem; /* Tamaño de letra grande*/
+    font-family: "dancing script", cursive; /* Aplica la fuente dancing script*/
+    margin: 10px 0; /* Espacio superior  e inferior*/
+    color:goldenrod; /*Color del texto*/
+}
+
+.container {
+    max-width: 100%; /* Se adapta al archivo de la pantalla */
+    padding: 15px; /* Espacio interno*/
+    margin: 0 auto; /* Centra el contenedor horizontalmente*/
+}
+
+
+
+
+footer {
+    background-color:rgba(0, 255, 255, 0.171);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-cpntent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.footer-icons a{
+    text-decoration: none;
+}
+.footer-icons img{
+    width:25px;
+    height: 25px;
+    transition: transform 0.3s;
+}
+.footer-icons a img:hover{
+    transform: scale(1,2);
+}
+
+.introduction-text{
+    font-size: 3rem; /* Tamaño de letra grande*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Aplica la fuente dancing script*/
+    margin: 10px 0; /* Espacio superior  e inferior*/
+    color:goldenrod;
+}
+
+.information-text{
+    font-size: 1rem; /* Tamaño de letra grande*/
+    font-family:'tahoma', Tahoma, Geneva, Verdana, sans-serif; /* Aplica la fuente dancing script*/
+    margin-left: 80px;
+    margin-right: 80px;
+    /* Espacio superior  e inferior*/
+    color:white;
+    padding: 10px;
+}
+
+.form-container{
+    color:white;
+}
+
